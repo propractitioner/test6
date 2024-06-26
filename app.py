@@ -33,3 +33,4 @@ if st.button("Show 3D Structure"):
                 st.components.v1.html(view._make_html(), height=600)
     except Exception as e:
         st.error(f"An error occurred: {e}")
+
